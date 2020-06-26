@@ -21,8 +21,10 @@ jobs:
     # send a repository dispatch event
     - name: repository dispatch event
       run: |
-        curl -XPOST -u "${{ secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/cdefense/vulnerable-python/dispatches --data '{"event_type": "build_application"}'
+        curl -XPOST -u "${{ secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/cdefense/vulnerable-python/dispatches --data '{"event_type": "python_sca_scan_test"}'
+        curl -XPOST -u "${{ secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/cdefense/vulnerable-node/dispatches --data '{"event_type": "node_sca_scan_test"}'
+        curl -XPOST -u "${{ secrets.PAT_USERNAME}}:${{secrets.PAT_TOKEN}}" -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/cdefense/vulnerable-rust/dispatches --data '{"event_type": "rust_sca_scan_test"}'
     # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
+    - name: finish up
       run: |
-        echo repository dispatch event sent
+        echo Repository dispatch event sent!
