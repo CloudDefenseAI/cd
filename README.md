@@ -3,10 +3,19 @@
  <a href="https://clouddefense.ai/" target="_blank">
 <img height=70px src="https://user-images.githubusercontent.com/23183124/108589836-2a722b00-7382-11eb-9465-6620a00c9252.PNG" alt="" class="logo---vertical">
  </a>
+ </p>
 <p align="center"> 
  <a href="https://www.google.com" rel="nofollow" class="rich-diff-level-one">Documentation</a> | <a href="https://www.google.com" rel="nofollow" class="rich-diff-level-one">Tutorial</a>
 </p>
-</p>
+<p align="center"> 
+Clouddefense.ai is an automated web application security testing tool that audits your web applications by checking for vulnerabilities like SQL Injection, Cross site scripting and other exploitable vulnerabilities.
+ </p>
+ 
+<p align="center">
+ <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+        <img src="https://img.shields.io/badge/Downloads-1.69M-<COLOR>.svg" /></a>
+ </p>
+
 
 # What is CloudDefense?
 <p align="center"> 
