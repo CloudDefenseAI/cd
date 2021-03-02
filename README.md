@@ -51,14 +51,16 @@ Data is the ultimate motivator for hackers. Hackers are constantly looking for w
  - Containers 
 
 ## Language
-- Python
-- Node
-- Java
-- Swift
-- Rust
-- PHP
-- .NET
-- GO
+<p float="left">
+<img height=70px src="https://user-images.githubusercontent.com/23183124/109679420-620c7e80-7b9d-11eb-87b0-f49c29961c1d.png" alt="" class="logo---vertical">&nbsp;&nbsp;
+<img height=70px src="https://user-images.githubusercontent.com/23183124/109680341-3b027c80-7b9e-11eb-9414-57829a9006c7.png" alt="" class="logo---vertical">&nbsp;&nbsp;
+<img height=70px src="https://user-images.githubusercontent.com/23183124/109680350-3ccc4000-7b9e-11eb-899a-21fd3f216e19.png" alt="" class="logo---vertical">&nbsp;&nbsp;
+<img height=70px src="https://user-images.githubusercontent.com/23183124/109680356-3d64d680-7b9e-11eb-8b09-8da7de442fba.png" alt="" class="logo---vertical">&nbsp;&nbsp;
+<img height=70px src="https://user-images.githubusercontent.com/23183124/109680358-3dfd6d00-7b9e-11eb-82a1-d65c853c22d5.png" alt="" class="logo---vertical">&nbsp;&nbsp;
+<img height=70px src="https://user-images.githubusercontent.com/23183124/109680361-3e960380-7b9e-11eb-99b5-95d01611d6d7.png" alt="" class="logo---vertical">&nbsp;&nbsp;
+<img height=70px src="https://user-images.githubusercontent.com/23183124/109680364-3e960380-7b9e-11eb-954c-5902be1115f8.png" alt="" class="logo---vertical">&nbsp;&nbsp;
+<img height=70px src="https://user-images.githubusercontent.com/23183124/109680369-3f2e9a00-7b9e-11eb-8a72-520cdddc41c7.png" alt="" class="logo---vertical">&nbsp;&nbsp;
+</p>
 
 ## Installation
 
@@ -78,5 +80,6 @@ https://github.com/CloudDefenseAI/cd/raw/master/latest/cd-latest-windows.exe.tar
 sudo curl https://raw.githubusercontent.com/CloudDefenseAI/cd/master/latest/cd-latest-linux-x64.tar.gz > /tmp/cd-latest-linux-x64.tar.gz && tar -C /usr/local/bin -xzf /tmp/cd-latest-linux-x64.tar.gz && chmod +x /usr/local/bin/cdefense
 ```
 ## Features
+
 
 ## Usage
