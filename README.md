@@ -12,7 +12,7 @@ Clouddefense.ai is an automated web application security testing tool that audit
  </p>
  
 <p align="center">
- <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
+ <a href="http://clouddefense.ai/" alt="Contributors">
         <img src="https://img.shields.io/badge/Downloads-1.69M-<COLOR>.svg" /></a>
  </p>
 
@@ -34,7 +34,7 @@ Data is the ultimate motivator for hackers. Hackers are constantly looking for w
   <a href="#language">Language Supported</a>
  </li>
  <li>
- <a href="#installation">Installation</a></li>
+ <a href="#integrations">Integrations</a></li>
  <li>
   <a href="#features">Features</a></li>
  </li>
@@ -79,7 +79,72 @@ https://github.com/CloudDefenseAI/cd/raw/master/latest/cd-latest-windows.exe.tar
 ```sh
 sudo curl https://raw.githubusercontent.com/CloudDefenseAI/cd/master/latest/cd-latest-linux-x64.tar.gz > /tmp/cd-latest-linux-x64.tar.gz && tar -C /usr/local/bin -xzf /tmp/cd-latest-linux-x64.tar.gz && chmod +x /usr/local/bin/cdefense
 ```
-## Features
-
+## Integrations
+<ol>
+ <li>
+  Jenkins
+ </li>
+  <li>
+  GoCD
+ </li>
+  <li>
+  Gitlab
+ </li>
+  <li>
+  Bitbucket
+ </li>
+  <li>
+  CircleCI
+ </li>
+  <li>
+  Teamcity
+ </li>
+  <li>
+  Travis CI
+ </li>
+  <li>
+  Azure DevOps
+ </li>
+</ol>
 
 ## Usage
+### DotNet
+```bash
+cdefense sca --lang=dot_net --api-key=<YOUR_KEY> --project-name="example_project" 
+```
+### GO
+```bash
+cdefense sca --lang=go --api-key=<YOUR_KEY> --project-name="example_project" 
+```
+### Java
+```bash
+cdefense sca --lang=java --api-key=<YOUR_KEY> --project-name="example_project" 
+```
+### Kotlin
+```bash
+cdefense sca --lang=kotlin --api-key=<YOUR_KEY> --project-name="example_project" 
+```
+### Node
+```bash
+cdefense sca --lang=node --api-key=<YOUR_KEY> --project-name="example_project" 
+```
+### Objective C
+```bash
+cdefense sca --lang=objective_c --api-key=<YOUR_KEY> --project-name="example_project" 
+```
+### Php
+```bash
+cdefense sca --lang=php --api-key=<YOUR_KEY> --project-name="example_project" 
+```
+### Python
+```bash
+cdefense sca --lang=python --api-key=<YOUR_KEY> --project-name="example_project" 
+```
+### Rust 
+```bash
+cdefense sca --lang=rust --api-key=<YOUR_KEY> --project-name="example_project" 
+```
+### Swift
+```bash
+cdefense sca --lang=swift --api-key=<YOUR_KEY> --project-name="example_project" 
+```
