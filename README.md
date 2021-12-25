@@ -5,7 +5,7 @@
  </a>
  </p>
 <p align="center"> 
- <a href="https://www.google.com" rel="nofollow" class="rich-diff-level-one">Documentation</a> | <a href="https://www.google.com" rel="nofollow" class="rich-diff-level-one">Tutorial</a>
+ <a href="https://clouddefense.gitbook.io/clouddefense" rel="nofollow" class="rich-diff-level-one">Documentation</a> | <a href="https://clouddefense.gitbook.io/clouddefense" rel="nofollow" class="rich-diff-level-one">Tutorial</a>
 </p>
 <p align="center"> 
 Clouddefense.ai is an automated web application security testing tool that audits your web applications by checking for vulnerabilities like SQL Injection, Cross site scripting and other exploitable vulnerabilities.
