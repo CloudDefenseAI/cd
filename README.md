@@ -16,7 +16,7 @@ Clouddefense.ai is an automated web application security testing tool that audit
         <img src="https://img.shields.io/badge/Downloads-1.69M-<COLOR>.svg" /></a>
  </p>
 
-# What is CloudDefense?
+# What is CloudDefense.AI?
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/23183124/109674528-ced14a00-7b98-11eb-84c7-abf7b8548281.PNG" alt="" class="logo---vertical">
 </p>
