@@ -67,17 +67,17 @@ Data is the ultimate motivator for hackers. Hackers are constantly looking for w
 ### Mac
 
 ```sh
-curl https://raw.githubusercontent.com/CloudDefenseAI/cd/release-1.38.6/latest/cd-latest-mac-x64.tar.gz > /tmp/cd-latest-mac-x64.tar.gz && tar -C /usr/local/bin -xzf /tmp/cd-latest-mac-x64.tar.gz && chmod +x /usr/local/bin/cdefense
+curl https://raw.githubusercontent.com/CloudDefenseAI/cd/master/release-1.38.6/cd-latest-mac-x64.tar.gz > /tmp/cd-latest-mac-x64.tar.gz && tar -C /usr/local/bin -xzf /tmp/cd-latest-mac-x64.tar.gz && chmod +x /usr/local/bin/cdefense
 ```
 ### Windows
 
 ```sh
-https://github.com/CloudDefenseAI/cd/raw/release-1.38.6/latest/cd-latest-windows.exe.tar.gz
+https://github.com/CloudDefenseAI/cd/raw/master/release-1.38.6/cd-latest-windows.exe.tar.gz
 ```
 ### Linux
 
 ```sh
-sudo curl https://raw.githubusercontent.com/CloudDefenseAI/cd/release-1.38.6/latest/cd-latest-linux-x64.tar.gz > /tmp/cd-latest-linux-x64.tar.gz && tar -C /usr/local/bin -xzf /tmp/cd-latest-linux-x64.tar.gz && chmod +x /usr/local/bin/cdefense
+sudo curl https://raw.githubusercontent.com/CloudDefenseAI/cd/master/release-1.38.6/cd-latest-linux-x64.tar.gz > /tmp/cd-latest-linux-x64.tar.gz && tar -C /usr/local/bin -xzf /tmp/cd-latest-linux-x64.tar.gz && chmod +x /usr/local/bin/cdefense
 ```
 ## Integrations
 <ol>
